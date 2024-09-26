@@ -52,21 +52,50 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title"><span style="color: #2b5593;">MaskLLM</span>:
+              <br>
+              Learnable Semi-Structured Sparsity for Large Language Models</h1>
+            
+              <span class="author-block">
+                <a href="" target="_blank">- NeurIPS 2024 Spotlight -</a>
+              </span>
+            <hr>
+            
+
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                  <a href="https://fangggf.github.io/" target="_blank">Gongfan Fang<sup style="font-size:small">♣,♢,*</sup></a>,
+                </span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://hongxu-yin.github.io/" target="_blank">Hongxu Yin<sup style="font-size:small">♢</sup></a>,
+                </span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="https://www.sauravm.com/" target="_blank">Saurav Muralidharan<sup style="font-size:small">♢</sup></a>,
                   </span>
+                  <span class="author-block"></span>
+                    <a href="https://research.nvidia.com/person/greg-heinrich" target="_blank">Greg Heinrich<sup style="font-size:small">♢</sup></a>,
+                  </span>
+                  <br>
+                  <span class="author-block"></span>
+                    <a href="https://scholar.google.com/citations?user=DagH37xI9soC&hl=en" target="_blank">Jeff Pool<sup style="font-size:small">♢</sup></a>,
+                  </span>
+                  <span class="author-block"></span>
+                    <a href="https://jankautz.com/" target="_blank">Jan Kautz<sup style="font-size:small">♢</sup></a>,
+                  </span>
+                  <span class="author-block"></span>
+                    <a href="https://www.pmolchanov.com/" target="_blank">Pavlo Molchanov<sup style="font-size:small">♢</sup></a>,
+                  </span>
+                  <span class="author-block"></span>
+                    <a href="https://sites.google.com/site/sitexinchaowang/" target="_blank">Xinchao Wang<sup style="font-size:small">♣</sup></a>
+                  </span>
+
+
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">NVIDIA<sup style="font-size:small">♢</sup></span>    <span class="author-block">National University of Singapore<sup style="font-size:small">♣</sup></span>
+                    <span class="eql-cntrb"><small><br><sup style="font-size:small">*</sup>Work done at NVIDIA Research</small></span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -78,11 +107,11 @@
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                         </span>
-                        <span>Paper</span>
+                        <span>Arxiv</span>
                       </a>
                     </span>
 
-                    <!-- Supplementary PDF link -->
+                    <!-- Supplementary PDF link 
                     <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
@@ -91,20 +120,8 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span>
-
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- ArXiv abstract Link -->
+                  </span>-->
+                  <!-- ArXiv abstract Link 
                 <span class="link-block">
                   <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
@@ -113,7 +130,20 @@
                   </span>
                   <span>arXiv</span>
                 </a>
-              </span>
+              </span>-->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/NVlabs/MaskLLM" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>NVlabs/MaskLLM</span>
+                  </a>
+                </span>
+
+                
             </div>
           </div>
         </div>
@@ -125,19 +155,18 @@
 
 <!-- Teaser video-->
 <section class="hero teaser">
-  <div class="container is-max-desktop">
+  <div class="container is-max-desktop" style="margin-top: -3em;">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      <center>
+        <img src="static/images/animation-LQ.gif" style="width:65%"  alt="MY ALT TEXT"/>
+      </center>
+      <h2 class="subtitle has-text-centered" style="color: rgb(155, 155, 154);">
+        Learnable Semi-Structured (or "N:M") Sparsity for Large Language Models. The learned mask can be further transfered to downstream tasks for lossless compression.
       </h2>
     </div>
   </div>
 </section>
+<section class="hero is-small">
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
@@ -148,7 +177,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Large Language Models (LLMs) are distinguished by their massive parameter counts, which typically result in significant redundancy. This work introduces MaskLLM, a learnable pruning method that establishes Semi-structured (or "N:M") Sparsity in LLMs, aimed at reducing computational overhead during inference. Instead of developing a new importance criterion, MaskLLM explicitly models N:M patterns as a learnable distribution through Gumbel Softmax sampling. This approach facilitates end-to-end training on large-scale datasets and offers two notable advantages: 1) High-quality Masks - our method effectively scales to large datasets and learns accurate masks; 2) Transferability - the probabilistic modeling of mask distribution enables the transfer learning of sparsity across domains or tasks. We assessed MaskLLM using 2:4 sparsity on various LLMs, including LLaMA-2, Nemotron-4, and GPT-3, with sizes ranging from 843M to 15B parameters, and our empirical results show substantial improvements over state-of-the-art methods. For instance, leading approaches achieve a perplexity (PPL) of 10 or greater on Wikitext compared to the dense model's 5.12 PPL, but MaskLLM achieves a significantly lower 6.72 PPL solely by learning the masks with frozen weights. Furthermore, MaskLLM's learnable nature allows customized masks for lossless application of 2:4 sparsity to downstream tasks or domains.
           </p>
         </div>
       </div>
@@ -162,127 +191,195 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
+      <div class="columns is-centered has-text-centered">
+        <h2 class="title is-3">Method<br></h2>
+      </div>
+      
+      <div id="results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
         
+        <center>
+          <img src="static/images/framework.png" style="width: 60%;" alt="MY ALT TEXT"/>
+        
+        
+        <h4 class="subtitle is-6 has-text-justified" style="color: rgb(27, 27, 27); width: 60%; ">
+          Figure 2: This work introduces learnable semi-structured sparsity for LLMs. MaskLLM models mask selection as a distribution learning problem, enabling the creation of accurate masks through end-to-end training on large-scale datasets. The learned and general mask can be further transferred to downstream tasks or domains, achieving lossless compression.
+        </h4>
+      </center>
       </div>
-    </div>
-  </section>
-<!--End paper poster -->
+
+      <br>
+
+      <div class="item">
+        <!-- Your image here -->
+        <center>
+          <img src="static/images/gumbel_softmax.png" style="width: 60%;" alt="MY ALT TEXT"/>
+        
+        <h3 class="subtitle is-6 has-text-justified" style="color: rgb(27, 27, 27); width: 60%;">
+          Figure 3: Differentiable mask with Gumbel Softmax. Each consecutive M parameters are associated with a learnable categorical distribution of candidate masks. All illustrated computations, including the Gumbel Softmax, and the weighted averaging are differentiable.
+        </h3>
+      </center>
+      </div>
+    
+  </div>
+</div>
+</div>
+
+
+<br>
+
+</section>
+
+<section class="hero is-small"></section>
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <h2 class="title is-3">Key Findings<br></h2>
+      </div>
+      
+      <div id="results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        
+        <center>
+          <img src="static/images/finding1.png" style="width: 60%;" alt="MY ALT TEXT"/>
+        </center>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <center>
+          <img src="static/images/exp_finding1.png" style="width: 60%;" alt="MY ALT TEXT"/>
+       
+        <h3 class="subtitle is-6 has-text-justified" style="color: rgb(27, 27, 27); width: 60%;">
+          Table 1: Evaluation of 2:4 Sparsity with frozen weights (SparseGPT does perform the weight update step). One-shot pruning methods are calibrated with C4 and evaluated on Wikitext-2 following [10]. More results for Llama-3 [1] or other SOTA methods can be found in Table 12 and 13 of the appendix.
+        </h3>
+
+        <img src="static/images/exp_consumed_samples.png" style="width: 40%;" alt="MY ALT TEXT"/>
+       
+        <h3 class="subtitle is-6 has-text-justified" style="color: rgb(27, 27, 27); width: 60%;">
+          Table 4: Consumed samples vs. PPL on LLaMA2 7B. MaskLLM scales effectively to larger calibration datasets, achieving lower PPL with more samples.
+        </h3>
+      </center>
+      </div>
+      
+      <br> <br>
+
+      <div id="results-carousel">
+        <div class="item">
+         <!-- Your image here -->
+         
+         <center>
+           <img src="static/images/finding2.png" style="width: 60%;" alt="MY ALT TEXT"/>
+         </center>
+       </div>
+       <div class="item">
+         <!-- Your image here -->
+         <center>
+           <img src="static/images/exp_finding2.png" style="width: 60%;" alt="MY ALT TEXT"/>
+        
+         <h3 class="subtitle is-6 has-text-justified" style="color: rgb(27, 27, 27); width: 60%;">
+          Table 2: The effectiveness of transfer learning with prior masks. We report the Wikitext PPL of both prior and learned masks. The learned masks use the corresponding prior for initialization and refine the logits through end-to-end training. All results are obtained with frozen weights.
+         </h3>
+       </center>
+       </div>
+
+        <br> <br>
+
+      <div id="results-carousel">
+        <div class="item">
+         <!-- Your image here -->
+         
+         <center>
+           <img src="static/images/finding3.png" style="width: 60%;" alt="MY ALT TEXT"/>
+         </center>
+       </div>
+       <div class="item">
+         <!-- Your image here -->
+         <center>
+           <img src="static/images/exp_finding3.png" style="width: 60%;" alt="MY ALT TEXT"/>
+        
+         <h3 class="subtitle is-6 has-text-justified" style="color: rgb(27, 27, 27); width: 60%;">
+          Figure 5: (a) The L1 distance of sampled masks between adjacent training steps. (b) The maximum probability of mask distribution, serving as an indicator of convergence. In our method, the randomness of mask sampling is regulated by the scaling factor κ. A too-small κ introduces huge randomness, resulting in slow convergence as shown in (b). And an inappropriately large κ will suppress mask exploration and yield zero mask difference throughout the training process in (a).
+         </h3>
+       </center>
+       </div>
+
+       <br> <br>
+
+
+
+       <div id="results-carousel">
+         <div class="item">
+          <!-- Your image here -->
+          
+          <center>
+            <img src="static/images/finding4.png" style="width: 60%;" alt="MY ALT TEXT"/>
+          </center>
+        </div>
+        <div class="item">
+          <!-- Your image here -->
+          <center>
+            <img src="static/images/exp_finding4.png" style="width: 20%;" alt="MY ALT TEXT"/>
+         
+          <h3 class="subtitle is-6 has-text-centered" style="color: rgb(27, 27, 27); width: 60%;">
+            Table 3: Weight Regularization helps mask learning
+          </h3>
+        </center>
+        </div>
+
+
+
+        <br> <br>
+
+
+
+       <div id="results-carousel">
+         <div class="item">
+          <!-- Your image here -->
+          
+          <center>
+            <img src="static/images/finding5.png" style="width: 60%;" alt="MY ALT TEXT"/>
+          </center>
+        </div>
+        <div class="item">
+          <!-- Your image here -->
+          <center>
+            <img src="static/images/exp_finding5.png" style="width: 60%;" alt="MY ALT TEXT"/>
+         
+          <h3 class="subtitle is-6 has-text-centered" style="color: rgb(27, 27, 27); width: 60%;">
+            Table 4 & 5 & 6: Learning task-specific masks for lossless compression.
+          </h3>
+        </center>
+        </div>
+
+
+
+
+  </div>
+</div>
+</div>
+</section>
+
+
+<!-- End image carousel -->
 
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>
+        @article{fang2024maskllm,
+          title={MaskLLM: Learnable Semi-structured Sparsity for Large Language Models},
+          author={Fang, Gongfan and Yin, Hongxu and Muralidharan, Saurav and Heinrich, Greg and Pool, Jeff and Kautz, Jan and Molchanov, Pavlo and Wang, Xinchao },
+          journal={Advances in Neural Information Processing Systems},
+          year={2024}
+        }
+      </code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
-
 
   <footer class="footer">
   <div class="container">
